@@ -1,0 +1,23 @@
+{
+  "name": "shoes-friend-finder",
+  "version": "1.0.0",
+  "description": "Find Friends who share the same shoe intrests ",
+  "main": "server.js",
+  "scripts": {
+    "test": "noob"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tygabomb/Shoes-Friend-Finder.git"
+  },
+  "author": "B-Harrell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tygabomb/Shoes-Friend-Finder/issues"
+  },
+  "homepage": "https://github.com/Tygabomb/Shoes-Friend-Finder#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0"
+  }
+}
