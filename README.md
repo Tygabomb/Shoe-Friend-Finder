@@ -2,11 +2,11 @@
 
 An Express- and Node-based application for matching users based on personality. This application was my first experience deploying an Express application to Heroku.
 
-##Getting Started 
+## Getting Started 
 
 To view the site and interact with other users' data, visit http://frind-findr.herokuapp.com/
 
-##Instructions
+## nstructions
 
 Run the site locally and interact with your own data,
 
@@ -17,7 +17,7 @@ Run the site locally and interact with your own data,
 * Run node `server.js`
 * Go to `localhost:8080` in your web browser.
 
-##Technologies Used
+## Technologies Used
 
 * Node.js/NPM 
 * Express.js 
