@@ -6,7 +6,7 @@ An Express- and Node-based application for matching users based on personality. 
 
 To view the site and interact with other users' data, visit http://frind-findr.herokuapp.com/
 
-## nstructions
+## Instructions
 
 Run the site locally and interact with your own data,
 
@@ -23,7 +23,7 @@ Run the site locally and interact with your own data,
 * Express.js 
 * Bootstrap 
 * Heroku
-* Handlebars
+
 
 
 

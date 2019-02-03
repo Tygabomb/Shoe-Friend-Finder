@@ -23,9 +23,9 @@ module.exports = (app) => {
 
 		var differencesArray = [];
 
-		for(var i = 0; i < friendData.length; i++) {
+		for(var i = 0; i < shoeData.length; i++) {
 
-			var comparedFriend = friendData[i];
+			var comparedFriend = shoeData[i];
 			var totalDifference = 0;
 			
 			for(var k = 0; k < comparedFriend.scores.length; k++) {
@@ -46,8 +46,8 @@ module.exports = (app) => {
 			}
 		}
 
-		friendData.push(newFriend);
+		shoeData.push(newFriend);
 
-		res.json(friendData[bestFriendIndex]);
+		res.json(shoeData[bestFriendIndex]);
 	})
 }
