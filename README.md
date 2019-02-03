@@ -4,7 +4,7 @@ An Express- and Node-based application for matching users based on personality. 
 
 ## Getting Started 
 
-To view the site and interact with other users' data, visit http://frind-findr.herokuapp.com/
+To view the site and interact with other users' data, visit https://desolate-journey-19675.herokuapp.com/
 
 ## Instructions
 
