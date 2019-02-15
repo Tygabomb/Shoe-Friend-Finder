@@ -3,168 +3,257 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+
     <title>Shoe Friend Finder</title>
 
 </head>
 
 <body>
 
-    <body>
+    <div class="container">
 
-        <div class="container">
+        <h2> Shoe Survey Questions</h2>
+        <hr>
 
-            <h2> Shoe Survey Questions</h2>
-            <hr>
+        <h3><strong>About You</strong></h3>
+        <h4>Name (Required)</h4>
+        <input type="text" id="name" class="form-control" required>
 
-            <h3><strong>About You</strong></h3>
-            <h4>Name (Required)</h4>
-            <input type="text" id="name" class="form-control" required>
+        <h4>Link to Photo Image (Required)</h4>
+        <input type="text" id="photo" class="form-control" required>
 
-            <h4>Link to Photo Image (Required)</h4>
-            <input type="text" id="photo" class="form-control" required>
+        <hr>
 
-            <hr>
+        <h3><strong>Question 1</strong></h3>
+        <h4>When purchasing shoes, do you lean towards the more expensive pairs? </h4>
+        <select class="chosen-select" id="q1">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
 
-            <h3><strong>Question 1</strong></h3>
-            <h4>When purchasing shoes, do you lean towards the more expensive pairs? </h4>
-            <select class="chosen-select" id="q1">
-                <option value=""></option>
-                <option value="1">1 (Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5 (Strongly Agree)</option>
-            </select>
-
-            <h3><strong>Question 2</strong></h3>
-            <h4>Are the colors of a certain shoe, one of your deciding factors before purchase? </h4>
-            <select class="chosen-select" id="q2">
-                <option value=""></option>
-                <option value="1">1 (Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5 (Strongly Agree)</option>
-            </select>
+        <h3><strong>Question 2</strong></h3>
+        <h4>Are the colors of a certain shoe, one of your deciding factors before purchase? </h4>
+        <select class="chosen-select" id="q2">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
 
 
-            <h3><strong>Question 3</strong></h3>
-            <h4>How often do you wash/clean your shoes? (numbers represent times per week)</h4>
-            <select class="chosen-select" id="q3">
-                <option value=""></option>
-                <option value="1">1 (Strongly Disagree)</option>
-                <option value="2">2 </option>
-                <option value="3">3 </option>
-                <option value="4">4 </option>
-                <option value="5">5 (Strongly Agree)</option>
-            </select>
+        <h3><strong>Question 3</strong></h3>
+        <h4>How often do you wash/clean your shoes? (numbers represent times per week)</h4>
+        <select class="chosen-select" id="q3">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2 </option>
+            <option value="3">3 </option>
+            <option value="4">4 </option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
 
 
-            <h3><strong>Question 4</strong></h3>
-            <h4> You always buy the cheapest and most economical shoes
-                </h4>
-            <select class="chosen-select" id="q4">
-                <option value=""></option>
-                <option value="1">1 (Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5 (Strongly Agree)</option>
-            </select>
+        <h3><strong>Question 4</strong></h3>
+        <h4> You always buy the cheapest and most economical shoes
+        </h4>
+        <select class="chosen-select" id="q4">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
 
 
-            <h3><strong>Question 5</strong></h3>
-            <h4>Do your shoes have to be comfortable? 
-                </h4>
-            <select class="chosen-select" id="q5">
-                <option value=""></option>
-                <option value="1">1 (Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5 (Strongly Agree)</option>
-            </select>
+        <h3><strong>Question 5</strong></h3>
+        <h4>Do your shoes have to be comfortable?
+        </h4>
+        <select class="chosen-select" id="q5">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
 
 
-            <h3><strong>Question 6</strong></h3>
-            <h4>Have you ever purchased shoes from the Good-Will?</h4>
-            <select class="chosen-select" id="q6">
-                <option value=""></option>
-                <option value="1">1 (Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5 (Strongly Agree)</option>
-            </select>
+        <h3><strong>Question 6</strong></h3>
+        <h4>Have you ever purchased shoes from the Good-Will?</h4>
+        <select class="chosen-select" id="q6">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
 
 
-            <h3><strong>Question 7</strong></h3>
-            <h4>To you tend to buy more athletic theme shoes? 
-                </h4>
-            <select class="chosen-select" id="q7">
-                <option value=""></option>
-                <option value="1">1 (Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5 (Strongly Agree)</option>
-            </select>
+        <h3><strong>Question 7</strong></h3>
+        <h4>To you tend to buy more athletic theme shoes?
+        </h4>
+        <select class="chosen-select" id="q7">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
 
-            <h3><strong>Question 8</strong></h3>
-            <h4>To you have to try shoes on before purchase or do you just know your foot?</h4>
-            <select class="chosen-select" id="q8">
-                <option value=""></option>
-                <option value="1">1 (Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5 (Strongly Agree)</option>
-            </select>
+        <h3><strong>Question 8</strong></h3>
+        <h4>To you have to try shoes on before purchase or do you just know your foot?</h4>
+        <select class="chosen-select" id="q8">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
 
-            <h3><strong>Question 9</strong></h3>
-            <h4>Do leading fashion trends drive you towards your next shoe purchase? 
-                </h4>
-            <select class="chosen-select" id="q9">
-                <option value=""></option>
-                <option value="1">1 (Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5 (Strongly Agree)</option>
-            </select>
+        <h3><strong>Question 9</strong></h3>
+        <h4>Do leading fashion trends drive you towards your next shoe purchase?
+        </h4>
+        <select class="chosen-select" id="q9">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
 
-            <h3><strong>Question 10</strong></h3>
-            <h4>You feel more energetic after spending time with a group of people that have the same shoes</h4>
-            <select class="chosen-select" id="q10">
-                <option value=""></option>
-                <option value="1">1 (Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5 (Strongly Agree)</option>
-            </select>
+        <h3><strong>Question 10</strong></h3>
+        <h4>You feel more energetic after spending time with a group of people that have the same shoes</h4>
+        <select class="chosen-select" id="q10">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
 
-            <br>
-            <br>
+        <br>
+        <br>
 
-            <!-- Submit Button -->
-            <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
-                Submit</button>
+        <!-- Submit Button -->
+        <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
+            Submit</button>
 
-            <hr>
+        <hr>
 
-            <footer class="sticky" id="footer">
-                Copyright &copy; Brandon Harrell
-                <script>document.write(new Date().getFullYear())</script>
+        <footer class="sticky" id="footer">
+            Copyright &copy; Brandon Harrell
+            <script>document.write(new Date().getFullYear())</script>
 
-                <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/Tygabomb/Shoe-Friend-Finder">GitHub
-                        Repo</a></p>
+            <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/Tygabomb/Shoe-Friend-Finder">GitHub
+                    Repo
+                </a></p>
+    </div>
+    </footer>
+
+    <!-- Modal -->
+    <div id="results-modal" class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Best Match</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h6 id="matched-name"></h6>
+                    <img id="matched-image" src="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
         </div>
-        </footer>
+    </div>
 
-        </div>
+    <script type="text/javascript">
+        $("#submit").on("submit", (event) => {
+            event.preventDefault();
+            var body = {
+                name: $("#name").val().trim(),
+                photo: $("#photo").val().trim(),
+                score1: $("#q1").val(),
+                score2: $("#q2").val(),
+                score3: $("#q3").val(),
+                score4: $("#q4").val(),
+                score5: $("#q5").val(),
+                score6: $("#q6").val(),
+                score7: $("#q7").val(),
+                score8: $("#q8").val(),
+                score9: $("#q9").val(),
+                score10: $("#q10").val()
+            };
+            var counter = 0;
+            // A "for in" loop to loop through objects to validate inputs
+            $.each(body, function (key, value) {
+                // if value == 0 then dont fire the post function and alert user
+                if (value === 0) {
+                    counter--;
+                } else {
+                    counter++;
+                };
+            });
+            console.log(counter)
+            if (counter >= 10) {
+                postResult(body)
+            } else {
+                alert("You have some missing inputs")
+            };
+        });
 
-    </body>
+        function postResult(body) {
+            $.post("/api/friends", body, function (data) {
+                console.log(data)
+                //Insert and display matched information with the modal
+                let matchedName = $("#matched-name");
+                let matchedImage = $("#matched-image");
+                matchedName.text(data.name);
+                matchedImage.attr('src', data.photo);
+                $("#results-modal").modal("toggle")
+                //Clears then form after submitting.
+                $("#name").val('');
+                $("#photo").val('');
+                $("#q1").val('0');
+                $("#q2").val('0');
+                $("#q3").val('0');
+                $("#q4").val('0');
+                $("#q5").val('0');
+                $("#q6").val('0');
+                $("#q7").val('0');
+                $("#q8").val('0');
+                $("#q9").val('0');
+                $("#q10").val('0');
+            });
+        };
+    </script>
+
+
+    </div>
+
+</body>
 
 </html>
 
