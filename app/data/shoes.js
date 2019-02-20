@@ -4,7 +4,7 @@ const shoeData = [ {
 	scores : [5,5,2,3,1,5,2,1,3,5]
 }, {
 	name : "PF Fyler",
-	photo : "https://m.media-amazon.com/images/I/81YGXk7AyFL.jpg",
+	photo : "https://www.shoesforcrews.com/shared-imgs/productimages/US_en/45913/0000-800.jpg",
 	scores : [1,5,1,1,1,1,1,1,5,5]
 }, {
 	name : "ADIDAS Ultra boost",
