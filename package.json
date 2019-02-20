@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "noob",
-    "start" :"node server.js" 
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/Tygabomb/Shoes-Friend-Finder#readme",
   "dependencies": {
-    "express": "^4.16.4"
-    
+    "express": "^4.16.4",
+    "path": "^0.12.7"
   }
 }
